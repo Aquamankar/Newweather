@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Weather Information Using API">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Akanksha">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FullWeather</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+
+</head>
+<body>
+    <h1 class="heading">Weather Report</h1>
+    <div class="mainbox">
+        <div class="searchbox">
+            <input type="text" class="searchc" id="searchi" placeholder="Search">
+            <button class="btnc" id="btn">Search</button>
+        </div>
+        <div class="content ">
+            <div class="left-box">
+                <div  >
+                    <h2 class="cityc" id="city">Enter City Name to See Weather</h2>
+                </div>
+                <div class="datec">
+                    <p id="datei"></p>
+                </div>
+                <div class="dayc">
+                    <p id="dayi"> </p>
+                </div>
+            </div>
+            
+            <div class="right-box temper  ">
+                <div class="main-tempu">
+                    <h3></h3>
+                    <p class="tempu" id="tempi"><span>&#8451;</span></p>
+                </div>
+                
+              
+                <div class="iconc">
+                    <div class="iconi" id="iconi">
+                        <i  class="fa-solid fa-sun"></i>
+                    </div>
+                    
+                       
+                        <!-- <img id="iconi" src="http://openweathermap.org/img/wn/10d@2x.png" alt="pngs" srcset=""> -->
+
+                        <h3 id="decrip">clouds</h3>
+
+                   
+                    
+                </div>
+               
+            </div>
+            
+        </div>
+
+
+    </div>
+   
+
+   
+</body>
+</html>
